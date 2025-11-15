@@ -18,8 +18,8 @@ export default function Contact() {
           </p>
           <p className="mb-4">
             Email:{" "}
-            <a href="mailto:info@quickloan.com" className="text-red-700 hover:text-red-900 font-medium underline">
-              info@quickloan.com
+            <a href="mailto:info@FlexiPath.com" className="text-red-700 hover:text-red-900 font-medium underline">
+              info@FlexiPath.com
             </a>
           </p>
           <p>

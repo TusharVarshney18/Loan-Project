@@ -10,7 +10,7 @@ export default function Nav() {
       <div className="container max-w-6xl mx-auto flex items-center justify-between h-16 px-4">
         {/* Brand/Logo */}
         <Link href="/" className="font-extrabold text-xl text-red-800 tracking-wide">
-          QuickLoan
+          FlexiPath
         </Link>
 
         {/* Desktop Nav */}

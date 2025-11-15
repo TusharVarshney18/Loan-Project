@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-red-900 text-white py-10 mt-12">
       <div className="container max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
         <div>
-          <h4 className="font-bold text-lg text-red-300">QuickLoan</h4>
+          <h4 className="font-bold text-lg text-red-300">FlexiPath</h4>
           <p className="text-sm text-red-100">Simple lending — trusted by thousands. Fast approvals, transparent terms, and customer-first service.</p>
         </div>
 
@@ -19,8 +19,8 @@ export default function Footer() {
           </p>
           <p className="text-sm text-red-100">
             Email:{" "}
-            <a href="mailto:info@quickloan.com" className="hover:text-white underline">
-              info@quickloan.com
+            <a href="mailto:info@FlexiPath.com" className="hover:text-white underline">
+              info@FlexiPath.com
             </a>
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
 
       <div className="container max-w-6xl mx-auto text-center text-sm text-red-200 mt-8 px-4">
-        © {new Date().getFullYear()} QuickLoan. All rights reserved. | Made by Tushar Varshney
+        © {new Date().getFullYear()} FlexiPath. All rights reserved. | Made by Tushar Varshney
       </div>
     </footer>
   );

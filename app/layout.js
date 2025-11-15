@@ -3,8 +3,13 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "QuickLoan — Loans made simple",
+  title: "FlexiPath — Loans made simple",
   description: "Public-friendly loan website — personal, business, home, auto, education, and more.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

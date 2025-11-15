@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import LoanCard from "../components/LoanCard";
 import ContactForm from "@/components/ContactForm";
+import MarqueeHeader from "@/components/MarqueeHeader";
+import HeroSection from "@/components/HeroSection";
 
 const loans = [
   { id: "personal", title: "Personal Loan", desc: "Fast personal loans - unsecured for individuals." },
@@ -15,13 +17,13 @@ export default function Page() {
   return (
     <>
       <section className="bg-gray-50 min-h-screen">
-        {/* Top Red Banner/Header */}
-        <div className="w-full bg-red-800 py-4 shadow-md">
-          <h1 className="text-center text-3xl font-bold text-white tracking-wider drop-shadow">QuickLoan Portal</h1>
-        </div>
+        <MarqueeHeader />
 
         {/* Main Hero */}
         <Hero />
+
+        {/* Hero Section */}
+        <HeroSection />
 
         {/* Loan Products */}
         <div className="container max-w-6xl mx-auto my-12">
@@ -35,7 +37,7 @@ export default function Page() {
 
         {/* Features Section */}
         <div className="container max-w-6xl mx-auto my-16">
-          <h3 className="text-2xl font-semibold mb-4 text-red-800">Why choose QuickLoan?</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-red-800">Why choose FLEXIPATH?</h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="p-6 bg-white rounded-2xl shadow border-t-4 border-red-700">
               <span className="text-lg font-semibold text-gray-700">Fast Approvals</span>
